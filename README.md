@@ -1,9 +1,11 @@
 # Billing System
 This Python module BillingSystem.py implements a billing system that handles advanced payments and repayment processing using the provided ProcessorAPI class. The billing system allows performing advances, scheduling repayments, and tracking the status of transactions. It utilizes the Customer class to manage customer-related information and the ProcessorAPI class to interact with the external payment processor.
 
-Dependencies
+#Dependencies
 datetime: The module used to handle date and time operations.
-Classes
+
+#Classes
+
 transaction
 This class represents a transaction with attributes such as ID, status, and amount.
 Methods:
