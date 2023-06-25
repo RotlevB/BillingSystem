@@ -5,29 +5,6 @@ def calculate_due_date(week):
     other_date = current_date + timedelta(weeks=week)
     return other_date
 
-class transaction:
-    def __init__(self, ID, amount):
-        self.id = ID
-        self.status = "waiting"
-        self.amount
-    
-    def get_id(self):
-        return self.id
-    
-    def get_status(self):
-        return self.status
-    
-    def get_amount(self):
-        return self.amount
-
-    def success(self):
-        if(self.id == "waiting"):
-            self.id = "success"
-    
-    def failed(self):
-        if(self.id == "waiting"):
-            self.id = "failed"
-
 # BillingSystem class
 class BillingSystem:
     def __init__(self):
