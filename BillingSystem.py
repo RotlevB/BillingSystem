@@ -180,15 +180,3 @@ class Customer:
         self.done_transactions[transaction_id] = status
         return 1
         
-
-# ProcessorAPI class
-class ProcessorAPI:
-    def perform_transaction(self, src_bank_account, dst_bank_account, amount, direction):
-        # Perform the transaction using the "processor" API
-        # Return the transaction ID
-
-
-    def download_report(self):
-        # Download the transaction report using the "processor" API
-        # Return the report as a dictionary {transaction_id: status}
-
